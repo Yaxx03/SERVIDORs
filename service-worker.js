@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'offline-cache-v1';
+const CACHE_NAME = 'cache';
 
 
 const FILES_TO_CACHE = [
