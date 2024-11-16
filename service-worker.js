@@ -55,6 +55,6 @@ self.addEventListener('fetch', (event) => {
             .then((response) => {
                 return response || fetch(event.request);
             })
-            .catch(() => caches.match('/SERVIDOR/index.html'))
+            .catch(() => caches.match('/SERVIDORs/index.html'))
     );
 });
