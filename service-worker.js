@@ -1,19 +1,19 @@
-// Nombre del caché
+
 const CACHE_NAME = 'offline-cache-v1';
 
-// Archivos que se deben almacenar en caché
+
 const FILES_TO_CACHE = [
     '/SERVIDOR/',
     '/SERVIDOR/index.html',
     '/SERVIDOR/manifest.json',
-    '/SERVIDOR/icons/actualizar.jpg',
-    '/SERVIDOR/icons/ajustes3.jpg',
-    '/SERVIDOR/icons/comprobar.jpg',
-    '/SERVIDOR/icons/controlar.jpg',
-    '/SERVIDOR/icons/descargar.jpg',
-    '/SERVIDOR/icons/mas.jpg',
-    '/SERVIDOR/icons/desktop.png',
-    '/SERVIDOR/icons/mobile.png',
+    '/SERVIDOR/build/1.jpg',
+    '/SERVIDOR/build/2.jpg',
+    '/SERVIDOR/build/3.jpg',
+    '/SERVIDOR/build/4.jpg',
+    '/SERVIDOR/build/5.jpg',
+    '/SERVIDOR/build/6.jpg',
+    '/SERVIDOR/build/cap1.png',
+    '/SERVIDOR/build/cap2.png',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
 ];
